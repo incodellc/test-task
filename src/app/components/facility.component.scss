@@ -1,0 +1,58 @@
+.mat-expansion-panel-body {
+   padding: 0px !important;
+}
+
+.mat-elevation-z8 {
+  	box-shadow: none !important;
+}
+
+.mat-expansion-panel-header {
+    padding-left: 0px;
+    .header {
+    	flex-grow: 1; 
+    	display: flex;
+
+    	.location-name {
+		    	color: rgba(0, 0, 0, 0.87);
+		    	font-size: 14px;
+		    	margin-right: 5px;
+    	}
+
+    	th.small {
+    			padding-left: 30px;
+    	}
+
+    	.mat-column-good  {
+  		    color: green;
+    	}
+    	.mat-column-warning {
+			    color: orange;
+			}
+			.mat-column-check {
+			    color: red;
+			}
+    }
+}
+
+.main-panel {
+  margin-bottom: 30px !important;
+}
+
+.main-header,
+.main-header:active,
+.main-header:hover {
+  background: #CFD2D4 !important;
+}
+
+.facility-name {
+  cursor: pointer;
+}
+
+.facility-name:hover {
+  text-decoration: underline;
+}
+
+.sub-panel {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
